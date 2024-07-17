@@ -70,7 +70,7 @@ memb = Membrane(V, id, parent, objects, plasmids, rules, p_rules)
 
 A **P** System generating _n²_, _n_ >= 1
 
-![A **P** System generating n², n >= 1](https://github.com/pablogl2002/RM_membranes_TFG/blob/main/libPS/assets/PSystem_n_squared.png?raw=true)
+![A **P** System generating n², n >= 1](https://github.com/pablogl2002/docs_p_system_simulate/blob/main/assets/PSystem_n_squared.png?raw=true)
 
 ```python
 from p_system_simulate import *
@@ -181,7 +181,7 @@ membrane: 2 | n_times: 1 -> rule '4':  ('f', 'a.')
 A **P** system that checks if a number _n_ is divisible by another number _k_. 
 
 
-![A **P** system deciding whether k divides n](https://github.com/pablogl2002/RM_membranes_TFG/blob/main/libPS/assets/PSystem_k_divides_n.png?raw=true)
+![A **P** system deciding whether k divides n](https://github.com/pablogl2002/docs_p_system_simulate/blob/main/assets/PSystem_k_divides_n.png?raw=true)
 
 In this case _k_ = 3 divides _n_ = 15 .
 
@@ -313,7 +313,7 @@ membrane: 1 | n_times: 1 -> rule '1':  ('dcx', 'a3')
 
 A **P** System that makes an arithmetic substraction operation between *m* and *n*.
 
-![A **P** System doing *m* - *n*](https://github.com/pablogl2002/RM_membranes_TFG/blob/main/libPS/assets/PSystem_arithmetic_substraction.png?raw=true)
+![A **P** System doing *m* - *n*](https://github.com/pablogl2002/docs_p_system_simulate/blob/main/assets/PSystem_arithmetic_substraction.png?raw=true)
 
 ```python
 from p_system_simulate import *
@@ -403,7 +403,7 @@ membrane: 3 | n_times: 4 -> rule 'P_2_1':  ('ab', 'c0')
 
 A **P** System that makes product operation between *m* and *n*.
 
-![A **P** System doing *m* * *n*](https://github.com/pablogl2002/RM_membranes_TFG/blob/main/libPS/assets/PSystem_mathematic_product.png?raw=true)
+![A **P** System doing *m* * *n*](https://github.com/pablogl2002/docs_p_system_simulate/blob/main/assets/PSystem_mathematic_product.png?raw=true)
 
 
 ```python
@@ -569,7 +569,7 @@ membrane: 3 | n_times: 5 -> rule 'P_2_1':  ('a', 'ab0')
 
 Using as example a **P** system deciding whether _k_ divides _n_, which was used as example of use before:
 
-![A **P** system deciding whether k divides n](https://github.com/pablogl2002/RM_membranes_TFG/blob/main/libPS/assets/PSystem_k_divides_n.png?raw=true)
+![A **P** system deciding whether k divides n](https://github.com/pablogl2002/docs_p_system_simulate/blob/main/assets/PSystem_k_divides_n.png?raw=true)
 
 <table>
     <thead>
@@ -719,7 +719,7 @@ For example:
 
 The best way to understand this is through an example, such as the Mathematical Product P System mentioned earlier.
 
-![A **P** System doing *m* * *n*](assets/PSystem_mathematic_product.png)
+![A **P** System doing *m* * *n*](https://github.com/pablogl2002/docs_p_system_simulate/blob/main/assets/PSystem_mathematic_product.png?raw=true)
 
 <table>
     <thead>
