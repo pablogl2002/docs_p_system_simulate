@@ -1,7 +1,7 @@
 
 # PSystem python library
 
-The PSystem library allows you to create P Systems and evolve them, enabling complex simulations of these computational models.## PSystem class and its functions
+The PSystem library allows you to create P Systems and evolve them, enabling complex simulations of these computational models.
 
 ## PSystem Class and Its functions
 ### Creating a PSystem Object
